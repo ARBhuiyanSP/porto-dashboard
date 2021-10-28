@@ -29,6 +29,22 @@
 		<link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.theme.css" />
 		<link rel="stylesheet" href="vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
 		<link rel="stylesheet" href="vendor/morris/morris.css" />
+		
+		<link rel="stylesheet" href="vendor/select2/css/select2.css" />
+		<link rel="stylesheet" href="vendor/select2-bootstrap-theme/select2-bootstrap.min.css" />
+		<link rel="stylesheet" href="vendor/datatables/media/css/dataTables.bootstrap4.css" />
+		
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap-tagsinput/bootstrap-tagsinput.css" />
+		<link rel="stylesheet" href="vendor/bootstrap-colorpicker/css/bootstrap-colorpicker.css" />
+		<link rel="stylesheet" href="vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+		<link rel="stylesheet" href="vendor/dropzone/basic.css" />
+		<link rel="stylesheet" href="vendor/dropzone/dropzone.css" />
+		<link rel="stylesheet" href="vendor/bootstrap-markdown/css/bootstrap-markdown.min.css" />
+		<link rel="stylesheet" href="vendor/pnotify/pnotify.custom.css" />
+		<link rel="stylesheet" href="vendor/summernote/summernote-bs4.css" />
+		<link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+		<link rel="stylesheet" href="vendor/codemirror/theme/monokai.css" />
 
 		<!--(remove-empty-lines-end)-->
 
@@ -37,7 +53,8 @@
 
 
 		<!--(remove-empty-lines-end)-->
-
+		<!-- Theme Layout -->
+		<link rel="stylesheet" href="css/layouts/modern.css" />
 
 
 		<!-- Theme Custom CSS -->
@@ -49,3 +66,7 @@
 
 	</head>
 <body>
+<?php 
+include 'connection/connect.php';
+include 'helper/utilities.php';
+?>
